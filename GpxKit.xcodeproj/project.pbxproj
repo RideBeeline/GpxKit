@@ -11,7 +11,7 @@
 		4933267C1F7003A3001B928C /* GpxKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933267B1F7003A3001B928C /* GpxKitTests.swift */; };
 		4933267E1F7003A3001B928C /* GpxKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 493326701F7003A2001B928C /* GpxKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		493326881F7003B5001B928C /* Gpx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493326871F7003B5001B928C /* Gpx.swift */; };
-		4933268C1F70046E001B928C /* GpxParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933268B1F70046E001B928C /* GpxParser.swift */; };
+		4933268C1F70046E001B928C /* Gpx+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933268B1F70046E001B928C /* Gpx+Parser.swift */; };
 		4933268E1F7009FD001B928C /* Track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4933268D1F7009FD001B928C /* Track.gpx */; };
 		4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */; };
 		4996A07D1F70154200A0BE9D /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* Route.gpx */; };
@@ -39,7 +39,7 @@
 		4933267B1F7003A3001B928C /* GpxKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxKitTests.swift; sourceTree = "<group>"; };
 		4933267D1F7003A3001B928C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493326871F7003B5001B928C /* Gpx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gpx.swift; sourceTree = "<group>"; };
-		4933268B1F70046E001B928C /* GpxParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpxParser.swift; sourceTree = "<group>"; };
+		4933268B1F70046E001B928C /* Gpx+Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gpx+Parser.swift"; sourceTree = "<group>"; };
 		4933268D1F7009FD001B928C /* Track.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Track.gpx; sourceTree = "<group>"; };
 		4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute.gpx"; sourceTree = "<group>"; };
 		4996A07C1F70154200A0BE9D /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				493326871F7003B5001B928C /* Gpx.swift */,
-				4933268B1F70046E001B928C /* GpxParser.swift */,
+				4933268B1F70046E001B928C /* Gpx+Parser.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4933268C1F70046E001B928C /* GpxParser.swift in Sources */,
+				4933268C1F70046E001B928C /* Gpx+Parser.swift in Sources */,
 				493326881F7003B5001B928C /* Gpx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

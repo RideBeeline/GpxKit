@@ -5,22 +5,20 @@
 import CoreLocation
 import SWXMLHash
 
-public class GpxParser {
+public extension Gpx {
 
-    public func parse(data: Data) throws -> Gpx {
+    public init(data: Data) throws {
         let gpx = SWXMLHash.parse(data)["gpx"]
 
-        let route: [Point] = try gpx["rte"]["rtept"].all.map { routePoint in
+        self.route = try gpx["rte"]["rtept"].all.map { routePoint in
             try routePoint.point()
         }
 
-        let track: [[Point]] = try gpx["trk"]["trkseg"].all.map { trackSegment in
+        self.track = try gpx["trk"]["trkseg"].all.map { trackSegment in
             try trackSegment["trkpt"].all.map { trackPoint in
                 try trackPoint.point()
             }
         }
-
-        return Gpx(route: route, track: track)
     }
 }
 
