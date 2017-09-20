@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.default_subspec = "Core"
 
   s.subspec "Core" do |ss|
-    ss.dependency "SWXMLHash"
+    ss.dependency "SWXMLHash", '~> 4'
     ss.framework  = "Foundation"
   end
 
