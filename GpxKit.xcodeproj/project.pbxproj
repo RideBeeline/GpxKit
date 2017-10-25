@@ -16,6 +16,7 @@
 		4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */; };
 		4996A07D1F70154200A0BE9D /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* Route.gpx */; };
 		4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */; };
+		616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233311FA0BE9300A52420 /* Waypoints.gpx */; };
 		B028FC8B9CEE457261A36523 /* Pods_GpxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1303281A6F8E55C5846273 /* Pods_GpxKitTests.framework */; };
 		BCE97606425736225560EAF0 /* Pods_GpxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B22B93E6422483082A50A7E /* Pods_GpxKit.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute.gpx"; sourceTree = "<group>"; };
 		4996A07C1F70154200A0BE9D /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
 		4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute-Value.gpx"; sourceTree = "<group>"; };
+		616233311FA0BE9300A52420 /* Waypoints.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Waypoints.gpx; sourceTree = "<group>"; };
 		74D2E7DAA2B31296D1B15BAD /* Pods-GpxKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.release.xcconfig"; sourceTree = "<group>"; };
 		7C01B1EDCD729E8DA15378BB /* Pods-GpxKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.debug.xcconfig"; sourceTree = "<group>"; };
 		B39F93412A1A36A585986418 /* Pods-GpxKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				4996A07C1F70154200A0BE9D /* Route.gpx */,
 				4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */,
 				4933268D1F7009FD001B928C /* Track.gpx */,
+				616233311FA0BE9300A52420 /* Waypoints.gpx */,
 			);
 			name = "Gpx Files";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				4996A07D1F70154200A0BE9D /* Route.gpx in Resources */,
 				4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */,
 				4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */,
+				616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

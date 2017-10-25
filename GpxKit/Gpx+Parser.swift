@@ -10,6 +10,14 @@ public extension Gpx {
     public init(data: Data) throws {
         let gpx = SWXMLHash.parse(data)["gpx"]
 
+        self.creator = gpx["creator"].element?.text ?? ""
+
+        self.metadata = gpx["metadata"].metadata()
+
+        self.waypoints = try gpx["wpt"].all.map { waypoint in
+            try waypoint.point()
+        }
+
         self.route = try gpx["rte"]["rtept"].all.map { routePoint in
             try routePoint.point()
         }
@@ -24,12 +32,22 @@ public extension Gpx {
 
 fileprivate extension XMLIndexer {
 
+    func metadata() -> Metadata? {
+        guard element != nil else { return nil }
+        let name = self["name"].element?.text
+        let description = self["description"].element?.text
+        let author = self["author"].element?.text
+        return Metadata(name: name, description: description, author: author)
+    }
+
     func point() throws -> Point {
         guard let element = element else { throw IndexingError.error }
         let latitude = try element.attributeValue(by: "lat")
         let longitude = try element.attributeValue(by: "lon")
-        return Point(coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude))
+        let time = self["time"].element?.text
+        return Point(coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude), time: time != nil ? TimeInterval(time!) : nil)
     }
+
 }
 
 fileprivate extension XMLElement {
