@@ -53,6 +53,6 @@ class GpxKitTests: XCTestCase {
     private func parse(name: String) throws -> Gpx {
         let url = Bundle(for: GpxKitTests.self).url(forResource: name, withExtension: "gpx")
         let data = try! Data(contentsOf: url!)
-        return try GpxParser().parse(data: data)
+        return try Gpx(data: data)
     }
 }
