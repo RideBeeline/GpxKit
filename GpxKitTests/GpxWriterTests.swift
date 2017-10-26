@@ -59,6 +59,21 @@ class GpxWriterTests: XCTestCase {
         )
     }
 
+    func test_write_gpx_track() {
+        XCTAssertEqual(
+            gpxFile("Track"),
+            GpxWriter(
+                creator: "GpxKit",
+                track: Observable.just(Observable.from([
+                    Point(lat: 54.9328621088893, lon: 9.860624216140083, elevation: 0, time: Date(timeIntervalSince1970: 1505900660)),
+                    Point(lat: 54.93293237320851, lon: 9.86092208681491, elevation: 1.1, time: Date(timeIntervalSince1970: 1505900661)),
+                    Point(lat: 54.93327743521187, lon: 9.86187816543752, elevation: 2.22, time: Date(timeIntervalSince1970: 1505900662)),
+                    Point(lat: 54.93342326167919, lon: 9.86243984967986, elevation: 3.333, time: Date(timeIntervalSince1970: 1505900663))
+                ]))
+            ).asString()
+        )
+    }
+
     private func gpxFile(_ name: String) -> String {
         let url = Bundle(for: GpxParserTests.self).url(forResource: name, withExtension: "gpx")
         let data = try! Data(contentsOf: url!)

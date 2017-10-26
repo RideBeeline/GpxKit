@@ -30,6 +30,7 @@ public class GpxWriter : NSObject {
             .concat(writeMetadata(metadata, indent: 1))
             .concat(writeWaypoints(waypoints, indent: 1))
             .concat(writeRoute(route, indent: 1))
+            .concat(writeTrack(track, indent: 1))
             .concat(Observable.just { $0.write(closeTag: "gpx", newline: true) })
         super.init()
     }
@@ -47,11 +48,30 @@ public class GpxWriter : NSObject {
 }
 
 private func writePoint(point: Point, tag: String, indent: Int = 0) -> XmlWrite {
-    let lat = "\(point.coordinate.latitude)"
-    let lon = "\(point.coordinate.longitude)"
-    return {
-        $0.write(openTag: tag, attributes: [("lat", lat), ("lon", lon)], newline: true, indent: indent)
-        $0.write(closeTag: tag, newline: true, indent: indent)
+    return { stream in
+        stream.write(
+            openTag: tag,
+            attributes: [("lat", "\(point.coordinate.latitude)"), ("lon", "\(point.coordinate.longitude)")],
+            newline: true,
+            indent: indent
+        )
+        if let elevation = point.elevation {
+            stream
+                .write(openTag: "ele", indent: indent + 1)
+                .write(value: "\(elevation)")
+                .write(closeTag: "ele", newline: true)
+        }
+        if let time = point.time {
+            stream
+                .write(openTag: "time", indent: indent + 1)
+                .write(value: ISO8601DateFormatter().string(from: time))
+                .write(closeTag: "time", newline: true)
+        }
+        stream.write(
+            closeTag: tag,
+            newline: true,
+            indent: indent
+        )
     }
 }
 
@@ -79,5 +99,20 @@ private func writeRoute(_ route: Observable<Point>?, indent: Int = 0) -> Observa
     return Observable.just { $0.write(openTag: "rte", newline: true, indent: indent) }
         .concat(route.map { writePoint(point: $0, tag: "rtept", indent: indent + 1) })
         .concat(Observable.just { $0.write(closeTag: "rte", newline: true, indent: indent) })
+}
+
+private func writeTrack(_ track: Observable<Observable<Point>>?, indent: Int = 0) -> Observable<XmlWrite> {
+    guard let track = track else { return Observable.empty() }
+    return Observable.just { $0.write(openTag: "trk", newline: true, indent: indent) }
+        .concat(
+            Observable.just { $0.write(openTag: "trkseg", newline: true, indent: indent + 1) }
+                .concat(
+                    track.concatMap {
+                        $0.map { writePoint(point: $0, tag: "trkpt", indent: indent + 2) }
+                    }
+                )
+                .concat(Observable.just { $0.write(closeTag: "trkseg", newline: true, indent: indent + 1) })
+        )
+        .concat(Observable.just { $0.write(closeTag: "trk", newline: true, indent: indent) })
 }
 
