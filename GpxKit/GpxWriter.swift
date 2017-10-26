@@ -21,7 +21,7 @@ public class GpxWriter : NSObject {
         self.writeOperations = Observable.from([
             { $0.writeXmlDeclaration() },
             { $0.write(openTag: "gpx", attributes: [("xmlns", "http://www.topografix.com/GPX/1/1"), ("version", "1.1"), ("creator", creator)], newline: true) },
-            { if let metadata = metadata { $0.write(metadata: metadata) } },
+            { if let metadata = metadata { $0.write(metadata: metadata, indent: 1) } },
             { $0.write(closeTag: "gpx", newline: true) }
         ])
     }
@@ -38,18 +38,18 @@ public class GpxWriter : NSObject {
 
 }
 
-extension OutputStream {
+private extension OutputStream {
 
     @discardableResult
-    func write(metadata: Metadata) -> OutputStream {
-        write(openTag: "metadata", newline: true)
+    func write(metadata: Metadata, indent: Int = 0) -> OutputStream {
+        write(openTag: "metadata", newline: true, indent: indent)
         if let value = metadata.name {
-            write(openTag: "name").write(value: value).write(closeTag: "name", newline: true)
+            write(openTag: "name", indent: indent + 1).write(value: value).write(closeTag: "name", newline: true)
         }
         if let value = metadata.description {
-            write(openTag: "description").write(value: value).write(closeTag: "description", newline: true)
+            write(openTag: "description", indent: indent + 1).write(value: value).write(closeTag: "description", newline: true)
         }
-        write(closeTag: "metadata", newline: true)
+        write(closeTag: "metadata", newline: true, indent: indent)
         return self
     }
 
