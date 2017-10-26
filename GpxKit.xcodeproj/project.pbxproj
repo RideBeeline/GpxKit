@@ -23,7 +23,6 @@
 		616233361FA0C74000A52420 /* GpxWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233351FA0C74000A52420 /* GpxWriter.swift */; };
 		616233391FA0F26900A52420 /* GpxWriter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233381FA0F26900A52420 /* GpxWriter+Extensions.swift */; };
 		6162333B1FA1DC7300A52420 /* Empty.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6162333A1FA1DC7300A52420 /* Empty.gpx */; };
-		6162333D1FA1DD8900A52420 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162333C1FA1DD8900A52420 /* String+Extensions.swift */; };
 		6162333F1FA1E1A400A52420 /* OutputStream+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */; };
 		616233421FA1E9F800A52420 /* EmptyWithMetadata.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */; };
 		B028FC8B9CEE457261A36523 /* Pods_GpxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1303281A6F8E55C5846273 /* Pods_GpxKitTests.framework */; };
@@ -62,7 +61,6 @@
 		616233351FA0C74000A52420 /* GpxWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxWriter.swift; sourceTree = "<group>"; };
 		616233381FA0F26900A52420 /* GpxWriter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GpxWriter+Extensions.swift"; sourceTree = "<group>"; };
 		6162333A1FA1DC7300A52420 /* Empty.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Empty.gpx; sourceTree = "<group>"; };
-		6162333C1FA1DD8900A52420 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutputStream+Extensions.swift"; sourceTree = "<group>"; };
 		616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EmptyWithMetadata.gpx; sourceTree = "<group>"; };
 		74D2E7DAA2B31296D1B15BAD /* Pods-GpxKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 		616233401FA1E2AE00A52420 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6162333C1FA1DD8900A52420 /* String+Extensions.swift */,
 				6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */,
 			);
 			name = Extensions;
@@ -440,7 +437,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6162333D1FA1DD8900A52420 /* String+Extensions.swift in Sources */,
 				6162333F1FA1E1A400A52420 /* OutputStream+Extensions.swift in Sources */,
 				4933268C1F70046E001B928C /* Gpx+Parser.swift in Sources */,
 				493326881F7003B5001B928C /* Gpx.swift in Sources */,
