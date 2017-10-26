@@ -20,7 +20,7 @@ class GpxParserTests: XCTestCase {
     }
 
     func test_parse_gpx_track() {
-        let gpx = try! parse(name: "Track")
+        let gpx = try! parse(name: "StravaTrack")
 
         XCTAssertEqual(gpx.track!.count, 1)
         XCTAssertEqual(gpx.track![0].count, 1752)
