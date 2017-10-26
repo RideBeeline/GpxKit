@@ -20,4 +20,13 @@ public struct Metadata {
 public struct Point {
     public let coordinate: CLLocationCoordinate2D
     public let time: TimeInterval?
+
+    init(lat: Double, lon: Double) {
+        self.init(CLLocationCoordinate2DMake(lat, lon))
+    }
+
+    init(_ coordinate: CLLocationCoordinate2D, time: TimeInterval? = nil) {
+        self.coordinate = coordinate
+        self.time = time
+    }
 }

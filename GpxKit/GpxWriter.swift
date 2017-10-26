@@ -18,12 +18,22 @@ public class GpxWriter : NSObject {
         route: Observable<Point>? = nil,
         track: Observable<Observable<Point>>? = nil
     ) {
-        self.writeOperations = Observable.from([
-            { $0.writeXmlDeclaration() },
-            { $0.write(openTag: "gpx", attributes: [("xmlns", "http://www.topografix.com/GPX/1/1"), ("version", "1.1"), ("creator", creator)], newline: true) },
-            { if let metadata = metadata { $0.write(metadata: metadata, indent: 1) } },
-            { $0.write(closeTag: "gpx", newline: true) }
-        ])
+        self.writeOperations = Observable
+            .from([
+                { $0.writeXmlDeclaration() },
+                { $0.write(openTag: "gpx", attributes: [("xmlns", "http://www.topografix.com/GPX/1/1"), ("version", "1.1"), ("creator", creator)], newline: true) },
+            ])
+            .concat(
+                metadata != nil
+                    ? Observable.just({ $0.write(metadata: metadata!, indent: 1) })
+                    : Observable.empty()
+            )
+            .concat(
+                waypoints != nil
+                    ? waypoints!.map { (waypoint: Point) in { $0.write(waypoint: waypoint, indent: 1) } }
+                    : Observable.empty()
+            )
+            .concat(Observable.just { $0.write(closeTag: "gpx", newline: true) })
     }
 
     public func write<T : OutputStream>(to stream: T) -> Observable<T> {
@@ -50,6 +60,15 @@ private extension OutputStream {
             write(openTag: "description", indent: indent + 1).write(value: value).write(closeTag: "description", newline: true)
         }
         write(closeTag: "metadata", newline: true, indent: indent)
+        return self
+    }
+
+    @discardableResult
+    func write(waypoint: Point, indent: Int = 0) -> OutputStream {
+        let lat = "\(waypoint.coordinate.latitude)"
+        let lon = "\(waypoint.coordinate.longitude)"
+        write(openTag: "wpt", attributes: [("lat", lat), ("lon", lon)], newline: true, indent: indent)
+        write(closeTag: "wpt", newline: true, indent: indent)
         return self
     }
 
