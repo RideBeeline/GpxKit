@@ -14,7 +14,7 @@
 		4933268C1F70046E001B928C /* Gpx+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933268B1F70046E001B928C /* Gpx+Parser.swift */; };
 		4933268E1F7009FD001B928C /* Track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4933268D1F7009FD001B928C /* Track.gpx */; };
 		4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */; };
-		4996A07D1F70154200A0BE9D /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* Route.gpx */; };
+		4996A07D1F70154200A0BE9D /* GarminRoute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* GarminRoute.gpx */; };
 		4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */; };
 		616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233311FA0BE9300A52420 /* Waypoints.gpx */; };
 		616233341FA0C6E000A52420 /* GpxWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233331FA0C6E000A52420 /* GpxWriterTests.swift */; };
@@ -51,7 +51,7 @@
 		4933268B1F70046E001B928C /* Gpx+Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gpx+Parser.swift"; sourceTree = "<group>"; };
 		4933268D1F7009FD001B928C /* Track.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Track.gpx; sourceTree = "<group>"; };
 		4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute.gpx"; sourceTree = "<group>"; };
-		4996A07C1F70154200A0BE9D /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
+		4996A07C1F70154200A0BE9D /* GarminRoute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GarminRoute.gpx; sourceTree = "<group>"; };
 		4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute-Value.gpx"; sourceTree = "<group>"; };
 		616233311FA0BE9300A52420 /* Waypoints.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Waypoints.gpx; sourceTree = "<group>"; };
 		616233331FA0C6E000A52420 /* GpxWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxWriterTests.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */,
-				4996A07C1F70154200A0BE9D /* Route.gpx */,
+				4996A07C1F70154200A0BE9D /* GarminRoute.gpx */,
 				4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */,
 				4933268D1F7009FD001B928C /* Track.gpx */,
 				616233311FA0BE9300A52420 /* Waypoints.gpx */,
@@ -325,7 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4933268E1F7009FD001B928C /* Track.gpx in Resources */,
-				4996A07D1F70154200A0BE9D /* Route.gpx in Resources */,
+				4996A07D1F70154200A0BE9D /* GarminRoute.gpx in Resources */,
 				4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */,
 				616233421FA1E9F800A52420 /* EmptyWithMetadata.gpx in Resources */,
 				6162333B1FA1DC7300A52420 /* Empty.gpx in Resources */,

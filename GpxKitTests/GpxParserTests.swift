@@ -8,7 +8,7 @@ import XCTest
 class GpxParserTests: XCTestCase {
 
     func test_parse_gpx_route() {
-        let gpx = try! parse(name: "Route")
+        let gpx = try! parse(name: "GarminRoute")
 
         XCTAssertEqual(gpx.route!.count, 118)
 
