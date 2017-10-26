@@ -14,9 +14,11 @@ class GpxParserTests: XCTestCase {
 
         XCTAssertEqual(gpx.route![0].coordinate.latitude, 49.933832287788391)
         XCTAssertEqual(gpx.route![0].coordinate.longitude, 1.088794218376279)
+        XCTAssertEqual(gpx.route![0].time, Date(timeIntervalSince1970: 1311371614))
 
         XCTAssertEqual(gpx.route![1].coordinate.latitude, 49.934062957763672)
         XCTAssertEqual(gpx.route![1].coordinate.longitude, 1.089534759521484)
+        XCTAssertEqual(gpx.route![1].time, nil)
     }
 
     func test_parse_gpx_track() {
