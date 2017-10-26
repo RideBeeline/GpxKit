@@ -15,7 +15,6 @@ public struct Gpx {
 public struct Metadata {
     public let name: String?
     public let description: String?
-    public let author: String?
 }
 
 public struct Point {

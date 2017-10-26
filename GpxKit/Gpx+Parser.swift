@@ -36,8 +36,7 @@ fileprivate extension XMLIndexer {
         guard element != nil else { return nil }
         let name = self["name"].element?.text
         let description = self["description"].element?.text
-        let author = self["author"].element?.text
-        return Metadata(name: name, description: description, author: author)
+        return Metadata(name: name, description: description)
     }
 
     func point() throws -> Point {

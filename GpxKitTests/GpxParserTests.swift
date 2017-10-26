@@ -5,7 +5,7 @@
 import XCTest
 @testable import GpxKit
 
-class GpxKitTests: XCTestCase {
+class GpxParserTests: XCTestCase {
 
     func test_parse_gpx_route() {
         let gpx = try! parse(name: "Route")
@@ -76,7 +76,7 @@ class GpxKitTests: XCTestCase {
     }
 
     private func parse(name: String) throws -> Gpx {
-        let url = Bundle(for: GpxKitTests.self).url(forResource: name, withExtension: "gpx")
+        let url = Bundle(for: GpxParserTests.self).url(forResource: name, withExtension: "gpx")
         let data = try! Data(contentsOf: url!)
         return try Gpx(data: data)
     }
