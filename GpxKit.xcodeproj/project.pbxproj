@@ -16,6 +16,7 @@
 		4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */; };
 		4996A07D1F70154200A0BE9D /* GarminRoute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* GarminRoute.gpx */; };
 		4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */; };
+		615208401FA2110600B0DCB7 /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6152083F1FA2110600B0DCB7 /* Route.gpx */; };
 		616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233311FA0BE9300A52420 /* Waypoints.gpx */; };
 		616233341FA0C6E000A52420 /* GpxWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233331FA0C6E000A52420 /* GpxWriterTests.swift */; };
 		616233361FA0C74000A52420 /* GpxWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233351FA0C74000A52420 /* GpxWriter.swift */; };
@@ -53,6 +54,7 @@
 		4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute.gpx"; sourceTree = "<group>"; };
 		4996A07C1F70154200A0BE9D /* GarminRoute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GarminRoute.gpx; sourceTree = "<group>"; };
 		4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute-Value.gpx"; sourceTree = "<group>"; };
+		6152083F1FA2110600B0DCB7 /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
 		616233311FA0BE9300A52420 /* Waypoints.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Waypoints.gpx; sourceTree = "<group>"; };
 		616233331FA0C6E000A52420 /* GpxWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxWriterTests.swift; sourceTree = "<group>"; };
 		616233351FA0C74000A52420 /* GpxWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxWriter.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				616233311FA0BE9300A52420 /* Waypoints.gpx */,
 				6162333A1FA1DC7300A52420 /* Empty.gpx */,
 				616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */,
+				6152083F1FA2110600B0DCB7 /* Route.gpx */,
 			);
 			name = "Gpx Files";
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */,
 				616233421FA1E9F800A52420 /* EmptyWithMetadata.gpx in Resources */,
 				6162333B1FA1DC7300A52420 /* Empty.gpx in Resources */,
+				615208401FA2110600B0DCB7 /* Route.gpx in Resources */,
 				4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */,
 				616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */,
 			);

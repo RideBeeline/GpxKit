@@ -44,6 +44,21 @@ class GpxWriterTests: XCTestCase {
         )
     }
 
+    func test_write_gpx_route() {
+        XCTAssertEqual(
+            gpxFile("Route"),
+            GpxWriter(
+                creator: "GpxKit",
+                route: Observable.from([
+                    Point(lat: 54.9328621088893, lon: 9.860624216140083),
+                    Point(lat: 54.93293237320851, lon: 9.86092208681491),
+                    Point(lat: 54.93327743521187, lon: 9.86187816543752),
+                    Point(lat: 54.93342326167919, lon: 9.862439849679859)
+                ])
+            ).asString()
+        )
+    }
+
     private func gpxFile(_ name: String) -> String {
         let url = Bundle(for: GpxParserTests.self).url(forResource: name, withExtension: "gpx")
         let data = try! Data(contentsOf: url!)
