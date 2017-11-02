@@ -11,7 +11,7 @@ public class GpxWriter : NSObject {
 
     private let writeOperations: Observable<XmlWrite>
 
-    init(
+    public init(
         creator: String,
         metadata: Metadata? = nil,
         waypoints: Observable<Point>? = nil,
@@ -39,7 +39,7 @@ public class GpxWriter : NSObject {
         return writeOperations
             .startWith { $0.open() }
             .concat(Observable.just { $0.close() })
-            .reduce(stream) { (stream, operation) -> T in
+            .reduce(stream) { stream, operation -> T in
                 operation(stream)
                 return stream
             }
@@ -64,7 +64,7 @@ private func writePoint(point: Point, tag: String, indent: Int = 0) -> XmlWrite 
         if let time = point.time {
             stream
                 .write(openTag: "time", indent: indent + 1)
-                .write(value: ISO8601DateFormatter().string(from: time))
+                .write(value: DateFormatter.iso8601.string(from: time))
                 .write(closeTag: "time", newline: true)
         }
         stream.write(
@@ -77,15 +77,21 @@ private func writePoint(point: Point, tag: String, indent: Int = 0) -> XmlWrite 
 
 private func writeMetadata(_ metadata: Metadata?, indent: Int = 0) -> Observable<XmlWrite> {
     guard let metadata = metadata else { return Observable.empty() }
-    return Observable.just {
-        $0.write(openTag: "metadata", newline: true, indent: indent)
+    return Observable.just { stream in
+        stream.write(openTag: "metadata", newline: true, indent: indent)
         if let value = metadata.name {
-            $0.write(openTag: "name", indent: indent + 1).write(value: value).write(closeTag: "name", newline: true)
+            stream
+                .write(openTag: "name", indent: indent + 1)
+                .write(value: value)
+                .write(closeTag: "name", newline: true)
         }
         if let value = metadata.description {
-            $0.write(openTag: "description", indent: indent + 1).write(value: value).write(closeTag: "description", newline: true)
+            stream
+                .write(openTag: "description", indent: indent + 1)
+                .write(value: value)
+                .write(closeTag: "description", newline: true)
         }
-        $0.write(closeTag: "metadata", newline: true, indent: indent)
+        stream.write(closeTag: "metadata", newline: true, indent: indent)
     }
 }
 

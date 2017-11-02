@@ -46,7 +46,7 @@ fileprivate extension XMLIndexer {
         let time = self["time"].element?.text
         return Point(
             CLLocationCoordinate2D(latitude: latitude, longitude: longitude),
-            time: time != nil ? ISO8601DateFormatter().date(from: time!) : nil
+            time: time != nil ? DateFormatter.iso8601.date(from: time!) : nil
         )
     }
 

@@ -22,11 +22,11 @@ public struct Point {
     public let elevation: Double?
     public let time: Date?
 
-    init(lat: Double, lon: Double, elevation: Double? = nil, time: Date? = nil) {
+    public init(lat: Double, lon: Double, elevation: Double? = nil, time: Date? = nil) {
         self.init(CLLocationCoordinate2DMake(lat, lon), elevation: elevation, time: time)
     }
 
-    init(_ coordinate: CLLocationCoordinate2D, elevation: Double? = nil, time: Date? = nil) {
+    public init(_ coordinate: CLLocationCoordinate2D, elevation: Double? = nil, time: Date? = nil) {
         self.coordinate = coordinate
         self.elevation = elevation
         self.time = time
