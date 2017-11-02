@@ -1,0 +1,1691 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2013-06-14T08:01:27Z</time>
+    <bounds maxlat="49.934062957763672" maxlon="1.538037741556764" minlat="49.641804434359074" minlon="1.085565090179443" />
+  </metadata>
+
+  <rte>
+    <name>DieppeParis1</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="49.933832287788391" lon="1.088794218376279">
+      <time>2011-07-22T21:53:34Z</time>
+      <name>Haute-Normandie</name>
+      <cmt>Haute-Normandie</cmt>
+      <desc>Haute-Normandie</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>1C00E1D0FC03B3005D000D2300002D8235C6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.934062957763672" lon="1.089534759521484">
+      <name>Road521</name>
+      <cmt>Road Road</cmt>
+      <desc>Road Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.933719635009766" lon="1.090076649561524">
+      <name>Road161</name>
+      <cmt>Road Road</cmt>
+      <desc>Road Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.933706223964691" lon="1.091079125180841">
+      <time>2011-07-22T21:53:57Z</time>
+      <name>land10</name>
+      <cmt>land</cmt>
+      <desc>land</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8100E1D0FC03048050000323000027829FC6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.934062957763672" lon="1.092946529388428">
+      <time>2011-07-22T21:54:06Z</time>
+      <name>trunk and Roundabout</name>
+      <cmt>trunk and Roundabout</cmt>
+      <desc>trunk and Roundabout</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0280E1D0FC039C005D000F2300003882F7C6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.933912754058838" lon="1.093053817749023">
+      <time>2011-07-22T21:54:00Z</time>
+      <name>trunk and Quai de la Marne and Roundabout</name>
+      <cmt>trunk and Quai de la Marne and Roundabout</cmt>
+      <desc>trunk and Quai de la Marne and Roundabout</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0280E1D0FC039C005D000F2300003182FCC6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.933548225089908" lon="1.091081220656633">
+      <name>Road221</name>
+      <cmt>Road Road</cmt>
+      <desc>Road Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.93352391757071" lon="1.089321691542864">
+      <name>Road310</name>
+      <cmt>Road Road</cmt>
+      <desc>Road Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.932518005371094" lon="1.087882518768311">
+      <time>2011-07-22T21:54:21Z</time>
+      <name>Quai de la Marne1</name>
+      <cmt>Quai de la Marne</cmt>
+      <desc>Quai de la Marne</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>05C0E1D0FC0379005D000F230000F0810BC6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.932475090026855" lon="1.087517738342285">
+      <name>Road49</name>
+      <cmt>Road Road</cmt>
+      <desc>Road Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.932418009266257" lon="1.087063523009419">
+      <time>2011-07-22T21:54:24Z</time>
+      <name>Quai de la Marne2</name>
+      <cmt>Quai de la Marne</cmt>
+      <desc>Quai de la Marne</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0500E1D0FC037A005D000D230000EB81E4C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.93211030960083" lon="1.086444854736328">
+      <time>2011-07-22T21:54:28Z</time>
+      <name>Quai de la Marne4</name>
+      <cmt>Quai de la Marne</cmt>
+      <desc>Quai de la Marne</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0500E1D0FC0378005D000F230000DD81C8C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.93187427520752" lon="1.086337566375732">
+      <time>2011-07-22T21:54:26Z</time>
+      <name>Quai de la Marne3</name>
+      <cmt>Quai de la Marne</cmt>
+      <desc>Quai de la Marne</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0540E1D0FC0378005D000F230000D281C3C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.929213523864746" lon="1.086444854736328">
+      <name>Quai de la Marne and Place Du Petit Paris1</name>
+      <cmt>Quai de la Marne and Place Du Petit Paris Quai de la Marne and Place Du Petit Paris</cmt>
+      <desc>Quai de la Marne and Place Du Petit Paris Quai de la Marne and Place Du Petit Paris</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.928382793441415" lon="1.085943533107638">
+      <name>2 Quai de la Somme1</name>
+      <cmt>2 Quai de la Somme 2 Quai de la Somme</cmt>
+      <desc>2 Quai de la Somme 2 Quai de la Somme</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.928123373538256" lon="1.085699116811156">
+      <time>2011-07-22T21:52:42Z</time>
+      <name>Quai de la Somme2</name>
+      <cmt>Quai de la Somme</cmt>
+      <desc>Quai de la Somme</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0500E1D0FC0381005D000D2300002381A5C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.92762322537601" lon="1.085565090179443">
+      <time>2011-07-22T21:52:33Z</time>
+      <name>Quai de la Somme1</name>
+      <cmt>Quai de la Somme</cmt>
+      <desc>Quai de la Somme</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0500E1D0FC0381005D000D2300000B819FC5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.927325248718262" lon="1.085693836212158">
+      <time>2011-07-22T21:52:31Z</time>
+      <name>Grande Rue Du Pollet and Quai de la Somme1</name>
+      <cmt>Grande Rue Du Pollet and Quai de la Somme</cmt>
+      <desc>Grande Rue Du Pollet and Quai de la Somme</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0400E1D0FC038B005D000F230000FE80A5C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.927282333374023" lon="1.086058616638184">
+      <time>2011-07-22T21:52:29Z</time>
+      <name>Grande Rue Du Pollet and Quai de la Somme</name>
+      <cmt>Grande Rue Du Pollet and Quai de la Somme</cmt>
+      <desc>Grande Rue Du Pollet and Quai de la Somme</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0480E1D0FC038A005D000F230000FC80B6C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.927325248718262" lon="1.08640193939209">
+      <time>2011-07-22T21:52:26Z</time>
+      <name>Grande Rue Du Pollet and Rue Joseph Brunel</name>
+      <cmt>Grande Rue Du Pollet and Rue Joseph Brunel</cmt>
+      <desc>Grande Rue Du Pollet and Rue Joseph Brunel</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0480E1D0FC038A005D000F230000FE80C6C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.925844669342041" lon="1.087346076965332">
+      <time>2011-07-22T21:54:46Z</time>
+      <name>Rue Maurice Levasseur and Rue Joseph Brunel and Quai de la Somme and Rue Charles Blound</name>
+      <cmt>Rue Maurice Levasseur and Rue Joseph Brunel and Quai de la Somme and Rue Charles Blound</cmt>
+      <desc>Rue Maurice Levasseur and Rue Joseph Brunel and Quai de la Somme and Rue Charles Blound</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0480E1D0FC0393005D000F230000B980F2C5</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.925900241360068" lon="1.08779015019536">
+      <time>2011-07-22T21:54:48Z</time>
+      <name>Rue Maurice Levasseur</name>
+      <cmt>Rue Maurice Levasseur</cmt>
+      <desc>Rue Maurice Levasseur</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0400E1D0FC0393005D000D230000BB8006C6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.925890769809484" lon="1.088387947529554">
+      <time>2011-07-22T21:54:53Z</time>
+      <name>Rue Maurice Levasseur1</name>
+      <cmt>Rue Maurice Levasseur</cmt>
+      <desc>Rue Maurice Levasseur</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0400E1D0FC0393005D000D230000BB8022C6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.92540730163455" lon="1.089079035446048">
+      <name>9 Rue Bonne-Nouvelle1</name>
+      <cmt>9 Rue Bonne-Nouvelle 9 Rue Bonne-Nouvelle</cmt>
+      <desc>9 Rue Bonne-Nouvelle 9 Rue Bonne-Nouvelle</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.924658546224236" lon="1.090527009218931">
+      <time>2011-07-22T21:55:01Z</time>
+      <name>Route Bonne Nouvelle</name>
+      <cmt>Route Bonne Nouvelle</cmt>
+      <desc>Route Bonne Nouvelle</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0400E1D0FC0358005A000D230000818086C6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.916596412658691" lon="1.097860336303711">
+      <name>Route de Bonne-Nouvelle and Cours Bourbon and Rue de L'Ancien Port</name>
+      <cmt>Route de Bonne-Nouvelle and Cours Bourbon and Rue de L'Ancien Port Route de Bonne-Nouvelle and Cours Bourbon and Rue de L'Ancien Port</cmt>
+      <desc>Route de Bonne-Nouvelle and Cours Bourbon and Rue de L'Ancien Port Route de Bonne-Nouvelle and Cours Bourbon and Rue de L'Ancien Port</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.913451774045825" lon="1.100776651874185">
+      <name>Rue de L'Ancien Port1</name>
+      <cmt>Rue de L'Ancien Port Rue de L'Ancien Port</cmt>
+      <desc>Rue de L'Ancien Port Rue de L'Ancien Port</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.908785820007324" lon="1.108675003051758">
+      <name>D485 and Rue de L'Ancien Port1</name>
+      <cmt>D485 and Rue de L'Ancien Port D485 and Rue de L'Ancien Port</cmt>
+      <desc>D485 and Rue de L'Ancien Port D485 and Rue de L'Ancien Port</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.906979855149984" lon="1.112590944394469">
+      <time>2011-07-22T21:55:26Z</time>
+      <name>Rue Des Salines (D 1)</name>
+      <cmt>Rue Des Salines (D 1)</cmt>
+      <desc>Rue Des Salines (D 1)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0300E1D0FC0342005F000D230000497D8ACA</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.904407784342766" lon="1.119555803015828">
+      <name>Grande Rue Des Salines3</name>
+      <cmt>Grande Rue Des Salines Grande Rue Des Salines</cmt>
+      <desc>Grande Rue Des Salines Grande Rue Des Salines</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.903012616559863" lon="1.123146442696452">
+      <name>Grande Rue Des Salines11</name>
+      <cmt>Grande Rue Des Salines Grande Rue Des Salines</cmt>
+      <desc>Grande Rue Des Salines Grande Rue Des Salines</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.901850046589971" lon="1.125136893242598">
+      <time>2011-07-22T21:55:46Z</time>
+      <name>Rue Des Salines (D 1)1</name>
+      <cmt>Rue Des Salines (D 1)</cmt>
+      <desc>Rue Des Salines (D 1)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0300E1D0FC0342005F000D2300005A7CD3CC</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.901087209582329" lon="1.128276502713561">
+      <name>Grande Rue Des Salines21</name>
+      <cmt>Grande Rue Des Salines Grande Rue Des Salines</cmt>
+      <desc>Grande Rue Des Salines Grande Rue Des Salines</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.900953769683838" lon="1.1305832862854">
+      <time>2011-07-22T21:55:51Z</time>
+      <name>primary and residential and Roundabout</name>
+      <cmt>primary and residential and Roundabout</cmt>
+      <desc>primary and residential and Roundabout</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0300E1D0FC036A005F000F230000317CD1CD</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.901419635862112" lon="1.137599190697074">
+      <name>Rue Saint-Martin1</name>
+      <cmt>Rue Saint-Martin Rue Saint-Martin</cmt>
+      <desc>Rue Saint-Martin Rue Saint-Martin</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.900674819946289" lon="1.141440868377686">
+      <time>2011-07-22T21:55:58Z</time>
+      <name>Rue Henri Iv (D 1) and Rue de L'Abbé Malais</name>
+      <cmt>Rue Henri Iv (D 1) and Rue de L'Abbé Malais</cmt>
+      <desc>Rue Henri Iv (D 1) and Rue de L'Abbé Malais</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0380E1D0FC0344005F000F230000247CCBCF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.898872375488281" lon="1.142127513885498">
+      <time>2011-07-22T21:56:02Z</time>
+      <name>Rue Henri Iv (D 1) and Rue de la Forêt</name>
+      <cmt>Rue Henri Iv (D 1) and Rue de la Forêt</cmt>
+      <desc>Rue Henri Iv (D 1) and Rue de la Forêt</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0340E1D0FC0359005F000F230000D07BEBCF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.897445188835263" lon="1.142246704548597">
+      <name>D13</name>
+      <cmt>D1 D1</cmt>
+      <desc>D1 D1</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.895155252888799" lon="1.137047577649355">
+      <name>D111</name>
+      <cmt>D1 D1</cmt>
+      <desc>D1 D1</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.894416555762291" lon="1.135601615533233">
+      <time>2011-07-22T21:56:08Z</time>
+      <name>Route de Dieppe (D 1)</name>
+      <cmt>Route de Dieppe (D 1)</cmt>
+      <desc>Route de Dieppe (D 1)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0300E1D0FC0343005F000D230000007BBACE</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.892477989196777" lon="1.134853363037109">
+      <name>Route de Martin Ãglise and  D1</name>
+      <cmt>Route de Martin Ãglise and  D1 Route de Martin Ãglise and  D1</cmt>
+      <desc>Route de Martin Ãglise and  D1 Route de Martin Ãglise and  D1</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.889516830444336" lon="1.135668754577637">
+      <name>Route de Martin Ãglise and Rue Jean-Baptiste ClÃ©ment</name>
+      <cmt>Route de Martin Ãglise and Rue Jean-Baptiste ClÃ©ment Route de Martin Ãglise and Rue Jean-Baptiste ClÃ©ment</cmt>
+      <desc>Route de Martin Ãglise and Rue Jean-Baptiste ClÃ©ment Route de Martin Ãglise and Rue Jean-Baptiste ClÃ©ment</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.88290342502296" lon="1.141292005777359">
+      <name>Route de Martin Ãglise and  D1 and  D54</name>
+      <cmt>Route de Martin Ãglise and  D1 and  D54 Route de Martin Ãglise and  D1 and  D54</cmt>
+      <desc>Route de Martin Ãglise and  D1 and  D54 Route de Martin Ãglise and  D1 and  D54</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.882482150569558" lon="1.140816500410438">
+      <time>2011-07-22T21:56:23Z</time>
+      <name>Rond-Point Des Fusillés</name>
+      <cmt>Rond-Point Des Fusillés</cmt>
+      <desc>Rond-Point Des Fusillés</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0300E1D0FC038B005F000D230000DA78CACF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.881752422079444" lon="1.139421332627535">
+      <time>2011-09-13T22:31:32Z</time>
+      <name>Rue Verdier Monetti (D 54)</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0400E1D0FC03A1005F000D230000B2786CCF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.881319664418697" lon="1.13725402392447">
+      <time>2011-09-13T22:31:05Z</time>
+      <name>29 Rue Verdier Monetti</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0000752551006D3F03000101000039230000</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.880907023325562" lon="1.133768325671554">
+      <time>2011-07-22T21:56:21Z</time>
+      <name>Route de Dieppe (D 1)1</name>
+      <cmt>Route de Dieppe (D 1)</cmt>
+      <desc>Route de Dieppe (D 1)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0300E1D0FC038B0050000D230000A87833D0</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.878564532846212" lon="1.135260220617056">
+      <time>2011-09-13T22:32:08Z</time>
+      <name>Chemin Des Prairies</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0500E1D0FC038F0050000D2300001D78AACE</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.876485737040639" lon="1.138472333550453">
+      <name>D121</name>
+      <cmt>D1 D1</cmt>
+      <desc>D1 D1</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.875479573383927" lon="1.140872491523624">
+      <time>2011-09-13T22:30:54Z</time>
+      <name>Railroad6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>140075255100010020010D2300009477AFCF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.87454742193222" lon="1.145813120529056">
+      <time>2011-09-13T22:54:30Z</time>
+      <name>Road39</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060075255100030020010D230000627796D0</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.873751392588019" lon="1.14853355102241">
+      <time>2011-09-13T22:54:32Z</time>
+      <name>Track6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.873080085963011" lon="1.149357492104173">
+      <time>2011-09-13T22:54:33Z</time>
+      <name>Road40</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0600752551000D001F010D2300001D773BD1</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.873253172263503" lon="1.153767043724656">
+      <time>2011-09-13T22:54:41Z</time>
+      <name>Road44</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0600752551000D001F010D230000267709D2</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.873723983764648" lon="1.157255172729492">
+      <time>2011-09-13T22:54:42Z</time>
+      <name>Road45</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.873766899108887" lon="1.159486770629883">
+      <time>2011-09-13T22:30:39Z</time>
+      <name>Avenue Verte and Road2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.872942203655839" lon="1.163293328136206">
+      <time>2011-07-23T23:39:00Z</time>
+      <name>Avenue Verte Cw Véloroute Paris-Londres (N21)1</name>
+      <cmt>Avenue Verte Cw Véloroute Paris-Londres (N21)</cmt>
+      <desc>Avenue Verte Cw Véloroute Paris-Londres (N21)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>1300E1D0FC035E0050000D2300001777C5D3</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.869511071592569" lon="1.171026723459363">
+      <name>Avenue Verte110</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.86750578507781" lon="1.178497765213251">
+      <time>2011-07-23T23:39:13Z</time>
+      <name>(D 149)</name>
+      <cmt>(D 149)</cmt>
+      <desc>(D 149)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0500E1D0FC032E0050000D2300001A7689D6</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.864239692687988" lon="1.188497543334961">
+      <name>Avenue Verte and Rue Du Biffret1</name>
+      <cmt>Avenue Verte and Rue Du Biffret Avenue Verte and Rue Du Biffret</cmt>
+      <desc>Avenue Verte and Rue Du Biffret Avenue Verte and Rue Du Biffret</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.860958848148584" lon="1.198379471898079">
+      <time>2011-07-23T23:39:46Z</time>
+      <name>tertiary1</name>
+      <cmt>tertiary</cmt>
+      <desc>tertiary</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>05004ED1FC03C10099000D230000E97428DA</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.859046936035156" lon="1.203174591064453">
+      <name>Rue Du Vieux Puits and Avenue Verte1</name>
+      <cmt>Rue Du Vieux Puits and Avenue Verte Rue Du Vieux Puits and Avenue Verte</cmt>
+      <desc>Rue Du Vieux Puits and Avenue Verte Rue Du Vieux Puits and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.85746300779283" lon="1.206215126439929">
+      <name>Avenue Verte37</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.844369888305664" lon="1.220769882202148">
+      <name>Avenue Verte and Route D'Ãcremesnil</name>
+      <cmt>Avenue Verte and Route D'Ãcremesnil Avenue Verte and Route D'Ãcremesnil</cmt>
+      <desc>Avenue Verte and Route D'Ãcremesnil Avenue Verte and Route D'Ãcremesnil</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.841375201940536" lon="1.22526191174984">
+      <name>Avenue Verte41</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.837803840637207" lon="1.229009628295898">
+      <name>Stade Jacky Schapman1</name>
+      <cmt>Stade Jacky Schapman Stade Jacky Schapman</cmt>
+      <desc>Stade Jacky Schapman Stade Jacky Schapman</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.83006457798183" lon="1.239897888153791">
+      <name>Avenue Verte51</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.82698917388916" lon="1.24596118927002">
+      <name>D1 B and Rue Du Colombier and Avenue Verte1</name>
+      <cmt>D1 B and Rue Du Colombier and Avenue Verte D1 B and Rue Du Colombier and Avenue Verte</cmt>
+      <desc>D1 B and Rue Du Colombier and Avenue Verte D1 B and Rue Du Colombier and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.816431999206543" lon="1.263856887817383">
+      <name>Rue Du Stade and Avenue Verte1</name>
+      <cmt>Rue Du Stade and Avenue Verte Rue Du Stade and Avenue Verte</cmt>
+      <desc>Rue Du Stade and Avenue Verte Rue Du Stade and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.813299179077148" lon="1.280207633972168">
+      <name>Route de NeufchÃ¢tel1</name>
+      <cmt>Route de NeufchÃ¢tel Route de NeufchÃ¢tel</cmt>
+      <desc>Route de NeufchÃ¢tel Route de NeufchÃ¢tel</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.809147119522095" lon="1.291820593178272">
+      <name>Avenue Verte81</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.807666372507811" lon="1.293413238599896">
+      <name>Avenue Verte91</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.804174723103642" lon="1.297841984778643">
+      <name>Avenue Verte101</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.802141189575195" lon="1.305656433105469">
+      <name>D114 and Avenue Verte1</name>
+      <cmt>D114 and Avenue Verte D114 and Avenue Verte</cmt>
+      <desc>D114 and Avenue Verte D114 and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.798894375562668" lon="1.315381536260247">
+      <name>Avenue Verte111</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.795875549316406" lon="1.320075988769531">
+      <name>D77 and Avenue Verte1</name>
+      <cmt>D77 and Avenue Verte D77 and Avenue Verte</cmt>
+      <desc>D77 and Avenue Verte D77 and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.791541853919625" lon="1.330204345285893">
+      <name>Rue Du Calvaire1</name>
+      <cmt>Rue Du Calvaire Rue Du Calvaire</cmt>
+      <desc>Rue Du Calvaire Rue Du Calvaire</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.782271385192871" lon="1.343421936035156">
+      <name>D12 and Avenue Verte1</name>
+      <cmt>D12 and Avenue Verte D12 and Avenue Verte</cmt>
+      <desc>D12 and Avenue Verte D12 and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.778487961739302" lon="1.349204778671265">
+      <name>Avenue Verte121</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.774889945983887" lon="1.356596946716309">
+      <name>Avenue Verte and Unpaved Road1</name>
+      <cmt>Avenue Verte and Unpaved Road Avenue Verte and Unpaved Road</cmt>
+      <desc>Avenue Verte and Unpaved Road Avenue Verte and Unpaved Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.767336845397949" lon="1.373119354248047">
+      <name>Avenue Verte and Rue de Mesnerettes and Road1</name>
+      <cmt>Avenue Verte and Rue de Mesnerettes and Road Avenue Verte and Rue de Mesnerettes and Road</cmt>
+      <desc>Avenue Verte and Rue de Mesnerettes and Road Avenue Verte and Rue de Mesnerettes and Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.760599136352539" lon="1.379556655883789">
+      <name>Rue Du ChÃ¢teau and Avenue Verte1</name>
+      <cmt>Rue Du ChÃ¢teau and Avenue Verte Rue Du ChÃ¢teau and Avenue Verte</cmt>
+      <desc>Rue Du ChÃ¢teau and Avenue Verte Rue Du ChÃ¢teau and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.757595062255859" lon="1.385993957519531">
+      <name>Avenue Verte and Road11</name>
+      <cmt>Avenue Verte and Road Avenue Verte and Road</cmt>
+      <desc>Avenue Verte and Road Avenue Verte and Road</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.754268620163202" lon="1.393318315967917">
+      <name>Avenue Verte131</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.751274352893233" lon="1.405626889318228">
+      <name>Avenue Verte141</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.746694564819336" lon="1.413674354553223">
+      <name>Rue de L'Aulage and Avenue Verte1</name>
+      <cmt>Rue de L'Aulage and Avenue Verte Rue de L'Aulage and Avenue Verte</cmt>
+      <desc>Rue de L'Aulage and Avenue Verte Rue de L'Aulage and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.738905010744929" lon="1.426226003095508">
+      <name>Avenue Verte151</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.73747187294066" lon="1.429629139602184">
+      <name>Avenue Verte161</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.735845113173127" lon="1.432671351358295">
+      <name>Avenue Verte171</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.733475046232343" lon="1.43522028811276">
+      <name>Avenue Verte181</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.732788316905499" lon="1.436270708218217">
+      <name>Avenue Verte191</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.730671383440495" lon="1.437141839414835">
+      <name>Avenue Verte201</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.727973416447639" lon="1.436814777553082">
+      <name>Avenue Verte211</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.726445395499468" lon="1.4370331261307">
+      <name>Avenue Verte221</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.724179683253169" lon="1.439407635480166">
+      <name>Avenue Verte231</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.720912836492062" lon="1.450476441532373">
+      <name>Avenue Verte241</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.720103982836008" lon="1.452381731942296">
+      <name>Avenue Verte251</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.715650677680969" lon="1.458610156551004">
+      <name>Avenue Verte261</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.713443806394935" lon="1.463126493617892">
+      <name>Avenue Verte271</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.70724530518055" lon="1.469639735296369">
+      <name>Avenue Verte281</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.70515251159668" lon="1.47890567779541">
+      <name>Impasse Du Frais Agneau and Avenue Verte1</name>
+      <cmt>Impasse Du Frais Agneau and Avenue Verte Impasse Du Frais Agneau and Avenue Verte</cmt>
+      <desc>Impasse Du Frais Agneau and Avenue Verte Impasse Du Frais Agneau and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.700554702430964" lon="1.491340985521674">
+      <name>Avenue Verte291</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.697645092383027" lon="1.49500940926373">
+      <name>Avenue Verte301</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.688082933425903" lon="1.501274211332202">
+      <name>Avenue Verte311</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.683644799515605" lon="1.501303715631366">
+      <name>Avenue Verte321</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.679891215637326" lon="1.503743603825569">
+      <name>Avenue Verte and Impasse Du Mesnil Signaux1</name>
+      <cmt>Avenue Verte and Impasse Du Mesnil Signaux Avenue Verte and Impasse Du Mesnil Signaux</cmt>
+      <desc>Avenue Verte and Impasse Du Mesnil Signaux Avenue Verte and Impasse Du Mesnil Signaux</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.679359802976251" lon="1.504382975399494">
+      <name>Avenue Verte331</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.662580490112305" lon="1.508345603942871">
+      <name>D102 and Avenue Verte1</name>
+      <cmt>D102 and Avenue Verte D102 and Avenue Verte</cmt>
+      <desc>D102 and Avenue Verte D102 and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.656439237296581" lon="1.509818136692047">
+      <name>Avenue Verte341</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.650627141818404" lon="1.515752440318465">
+      <name>Route de la RosiÃ¨re and Avenue Verte2</name>
+      <cmt>Route de la RosiÃ¨re and Avenue Verte Route de la RosiÃ¨re and Avenue Verte</cmt>
+      <desc>Route de la RosiÃ¨re and Avenue Verte Route de la RosiÃ¨re and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.647920792922378" lon="1.522443797439337">
+      <name>Avenue Verte351</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.647431373596191" lon="1.526455879211426">
+      <name>Route de la RosiÃ¨re and Avenue Verte11</name>
+      <cmt>Route de la RosiÃ¨re and Avenue Verte Route de la RosiÃ¨re and Avenue Verte</cmt>
+      <desc>Route de la RosiÃ¨re and Avenue Verte Route de la RosiÃ¨re and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.646783452481031" lon="1.529830433428288">
+      <name>Avenue Verte361</name>
+      <cmt>Avenue Verte Avenue Verte</cmt>
+      <desc>Avenue Verte Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.645800590515137" lon="1.532549858093262">
+      <name>Route de Beaussault and Avenue Verte1</name>
+      <cmt>Route de Beaussault and Avenue Verte Route de Beaussault and Avenue Verte</cmt>
+      <desc>Route de Beaussault and Avenue Verte Route de Beaussault and Avenue Verte</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.645488867536187" lon="1.53301203623414">
+      <name>Route de Beaussault and  D83 and Place de la Presle</name>
+      <cmt>Route de Beaussault and  D83 and Place de la Presle Route de Beaussault and  D83 and Place de la Presle</cmt>
+      <desc>Route de Beaussault and  D83 and Place de la Presle Route de Beaussault and  D83 and Place de la Presle</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.644914455711842" lon="1.533825164660811">
+      <name>D831</name>
+      <cmt>D83 D83</cmt>
+      <desc>D83 D83</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.642349006608129" lon="1.53722352348268">
+      <name>Route de NeufchÃ¢tel and  D831</name>
+      <cmt>Route de NeufchÃ¢tel and  D83 Route de NeufchÃ¢tel and  D83</cmt>
+      <desc>Route de NeufchÃ¢tel and  D83 Route de NeufchÃ¢tel and  D83</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="49.641804434359074" lon="1.538037741556764">
+      <name>Railroad5</name>
+      <cmt>Railroad Railroad</cmt>
+      <desc>Railroad Railroad</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

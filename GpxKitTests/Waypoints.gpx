@@ -1,23 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Source: http://cycleseven.org/gps-waypoints-routes-and-tracks-the-difference -->
+<?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="RouteConverter">
     <metadata>
         <name>Test file by Patrick</name>
+        <description>A test file from cycleseven.org</description>
     </metadata>
-    <wpt lon="9.860624216140083" lat="54.9328621088893">
-        <ele>0.0</ele>
-        <name>Position 1</name>
+    <wpt lat="54.9328621088893" lon="9.86062421614008">
     </wpt>
-    <wpt lon="9.86092208681491" lat="54.93293237320851">
-        <ele>0.0</ele>
-        <name>Position 2</name>
+    <wpt lat="54.9329323732085" lon="9.86092208681491">
     </wpt>
-    <wpt lon="9.86187816543752" lat="54.93327743521187">
-        <ele>0.0</ele>
-        <name>Position 3</name>
+    <wpt lat="54.9332774352119" lon="9.86187816543752">
     </wpt>
-    <wpt lon="9.862439849679859" lat="54.93342326167919">
-        <ele>0.0</ele>
-        <name>Position 4</name>
+    <wpt lat="54.9334232616792" lon="9.86243984967986">
     </wpt>
 </gpx>

@@ -5,22 +5,24 @@
 import XCTest
 @testable import GpxKit
 
-class GpxKitTests: XCTestCase {
+class GpxParserTests: XCTestCase {
 
     func test_parse_gpx_route() {
-        let gpx = try! parse(name: "Route")
+        let gpx = try! parse(name: "GarminRoute")
 
         XCTAssertEqual(gpx.route!.count, 118)
 
         XCTAssertEqual(gpx.route![0].coordinate.latitude, 49.933832287788391)
         XCTAssertEqual(gpx.route![0].coordinate.longitude, 1.088794218376279)
+        XCTAssertEqual(gpx.route![0].time, Date(timeIntervalSince1970: 1311371614))
 
         XCTAssertEqual(gpx.route![1].coordinate.latitude, 49.934062957763672)
         XCTAssertEqual(gpx.route![1].coordinate.longitude, 1.089534759521484)
+        XCTAssertEqual(gpx.route![1].time, nil)
     }
 
     func test_parse_gpx_track() {
-        let gpx = try! parse(name: "Track")
+        let gpx = try! parse(name: "StravaTrack")
 
         XCTAssertEqual(gpx.track!.count, 1)
         XCTAssertEqual(gpx.track![0].count, 1752)
@@ -38,16 +40,16 @@ class GpxKitTests: XCTestCase {
         XCTAssertEqual(gpx.waypoints!.count, 4)
 
         XCTAssertEqual(gpx.waypoints![0].coordinate.latitude, 54.9328621088893)
-        XCTAssertEqual(gpx.waypoints![0].coordinate.longitude, 9.860624216140083)
+        XCTAssertEqual(gpx.waypoints![0].coordinate.longitude, 9.86062421614008)
 
-        XCTAssertEqual(gpx.waypoints![1].coordinate.latitude, 54.93293237320851)
+        XCTAssertEqual(gpx.waypoints![1].coordinate.latitude, 54.9329323732085)
         XCTAssertEqual(gpx.waypoints![1].coordinate.longitude, 9.86092208681491)
 
-        XCTAssertEqual(gpx.waypoints![2].coordinate.latitude, 54.93327743521187)
+        XCTAssertEqual(gpx.waypoints![2].coordinate.latitude, 54.9332774352119)
         XCTAssertEqual(gpx.waypoints![2].coordinate.longitude, 9.86187816543752)
 
-        XCTAssertEqual(gpx.waypoints![3].coordinate.latitude, 54.93342326167919)
-        XCTAssertEqual(gpx.waypoints![3].coordinate.longitude, 9.862439849679859)
+        XCTAssertEqual(gpx.waypoints![3].coordinate.latitude, 54.9334232616792)
+        XCTAssertEqual(gpx.waypoints![3].coordinate.longitude, 9.86243984967986)
     }
 
     func test_parse_gpx_metadata() {
@@ -76,7 +78,7 @@ class GpxKitTests: XCTestCase {
     }
 
     private func parse(name: String) throws -> Gpx {
-        let url = Bundle(for: GpxKitTests.self).url(forResource: name, withExtension: "gpx")
+        let url = Bundle(for: GpxParserTests.self).url(forResource: name, withExtension: "gpx")
         let data = try! Data(contentsOf: url!)
         return try Gpx(data: data)
     }

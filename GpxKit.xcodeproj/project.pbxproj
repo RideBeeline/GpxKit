@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492D155C1FA8F70D0013DB7D /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D155B1FA8F70D0013DB7D /* DateFormatter+Extensions.swift */; };
 		493326771F7003A3001B928C /* GpxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4933266D1F7003A2001B928C /* GpxKit.framework */; };
-		4933267C1F7003A3001B928C /* GpxKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933267B1F7003A3001B928C /* GpxKitTests.swift */; };
+		4933267C1F7003A3001B928C /* GpxParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933267B1F7003A3001B928C /* GpxParserTests.swift */; };
 		4933267E1F7003A3001B928C /* GpxKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 493326701F7003A2001B928C /* GpxKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		493326881F7003B5001B928C /* Gpx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493326871F7003B5001B928C /* Gpx.swift */; };
 		4933268C1F70046E001B928C /* Gpx+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4933268B1F70046E001B928C /* Gpx+Parser.swift */; };
-		4933268E1F7009FD001B928C /* Track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4933268D1F7009FD001B928C /* Track.gpx */; };
+		4933268E1F7009FD001B928C /* StravaTrack.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4933268D1F7009FD001B928C /* StravaTrack.gpx */; };
 		4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */; };
-		4996A07D1F70154200A0BE9D /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* Route.gpx */; };
+		4996A07D1F70154200A0BE9D /* GarminRoute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* GarminRoute.gpx */; };
 		4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */; };
+		615208401FA2110600B0DCB7 /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6152083F1FA2110600B0DCB7 /* Route.gpx */; };
+		615208421FA21AA300B0DCB7 /* Track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 615208411FA21AA300B0DCB7 /* Track.gpx */; };
 		616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233311FA0BE9300A52420 /* Waypoints.gpx */; };
-		B028FC8B9CEE457261A36523 /* Pods_GpxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1303281A6F8E55C5846273 /* Pods_GpxKitTests.framework */; };
-		BCE97606425736225560EAF0 /* Pods_GpxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B22B93E6422483082A50A7E /* Pods_GpxKit.framework */; };
+		616233341FA0C6E000A52420 /* GpxWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233331FA0C6E000A52420 /* GpxWriterTests.swift */; };
+		616233361FA0C74000A52420 /* GpxWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233351FA0C74000A52420 /* GpxWriter.swift */; };
+		616233391FA0F26900A52420 /* GpxWriter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616233381FA0F26900A52420 /* GpxWriter+Extensions.swift */; };
+		6162333B1FA1DC7300A52420 /* Empty.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6162333A1FA1DC7300A52420 /* Empty.gpx */; };
+		6162333F1FA1E1A400A52420 /* OutputStream+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */; };
+		616233421FA1E9F800A52420 /* EmptyWithMetadata.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */; };
+		8AC4DDE44653A3A3A179940E /* Pods_GpxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156172C678D2BE106A871A1F /* Pods_GpxKit.framework */; };
+		B67D1D4FCD3F636CF6B804B8 /* Pods_GpxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43841FFEFECD3080677D013D /* Pods_GpxKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,25 +41,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B22B93E6422483082A50A7E /* Pods_GpxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GpxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E34298ECD04DB1EF2E39BB /* Pods-GpxKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.debug.xcconfig"; sourceTree = "<group>"; };
+		156172C678D2BE106A871A1F /* Pods_GpxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GpxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B16DDC2EAAE95A0D5AFD88 /* Pods-GpxKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43841FFEFECD3080677D013D /* Pods_GpxKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GpxKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		492D155B1FA8F70D0013DB7D /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		4933266D1F7003A2001B928C /* GpxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GpxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		493326701F7003A2001B928C /* GpxKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GpxKit.h; sourceTree = "<group>"; };
 		493326711F7003A2001B928C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493326761F7003A3001B928C /* GpxKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpxKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4933267B1F7003A3001B928C /* GpxKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxKitTests.swift; sourceTree = "<group>"; };
+		4933267B1F7003A3001B928C /* GpxParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxParserTests.swift; sourceTree = "<group>"; };
 		4933267D1F7003A3001B928C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493326871F7003B5001B928C /* Gpx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gpx.swift; sourceTree = "<group>"; };
 		4933268B1F70046E001B928C /* Gpx+Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gpx+Parser.swift"; sourceTree = "<group>"; };
-		4933268D1F7009FD001B928C /* Track.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Track.gpx; sourceTree = "<group>"; };
+		4933268D1F7009FD001B928C /* StravaTrack.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = StravaTrack.gpx; sourceTree = "<group>"; };
 		4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute.gpx"; sourceTree = "<group>"; };
-		4996A07C1F70154200A0BE9D /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
+		4996A07C1F70154200A0BE9D /* GarminRoute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GarminRoute.gpx; sourceTree = "<group>"; };
 		4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute-Value.gpx"; sourceTree = "<group>"; };
+		6152083F1FA2110600B0DCB7 /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
+		615208411FA21AA300B0DCB7 /* Track.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Track.gpx; sourceTree = "<group>"; };
 		616233311FA0BE9300A52420 /* Waypoints.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Waypoints.gpx; sourceTree = "<group>"; };
-		74D2E7DAA2B31296D1B15BAD /* Pods-GpxKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.release.xcconfig"; sourceTree = "<group>"; };
-		7C01B1EDCD729E8DA15378BB /* Pods-GpxKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.debug.xcconfig"; sourceTree = "<group>"; };
-		B39F93412A1A36A585986418 /* Pods-GpxKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		EAA24D5B03ADA931934B16DF /* Pods-GpxKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE1303281A6F8E55C5846273 /* Pods_GpxKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GpxKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616233331FA0C6E000A52420 /* GpxWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxWriterTests.swift; sourceTree = "<group>"; };
+		616233351FA0C74000A52420 /* GpxWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpxWriter.swift; sourceTree = "<group>"; };
+		616233381FA0F26900A52420 /* GpxWriter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GpxWriter+Extensions.swift"; sourceTree = "<group>"; };
+		6162333A1FA1DC7300A52420 /* Empty.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Empty.gpx; sourceTree = "<group>"; };
+		6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutputStream+Extensions.swift"; sourceTree = "<group>"; };
+		616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EmptyWithMetadata.gpx; sourceTree = "<group>"; };
+		CBDE30710EB582671DEAB5BA /* Pods-GpxKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6B3CA0DE6FC6B84CC87CA2E /* Pods-GpxKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE97606425736225560EAF0 /* Pods_GpxKit.framework in Frameworks */,
+				8AC4DDE44653A3A3A179940E /* Pods_GpxKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493326771F7003A3001B928C /* GpxKit.framework in Frameworks */,
-				B028FC8B9CEE457261A36523 /* Pods_GpxKitTests.framework in Frameworks */,
+				B67D1D4FCD3F636CF6B804B8 /* Pods_GpxKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +98,8 @@
 				4933266F1F7003A2001B928C /* GpxKit */,
 				4933267A1F7003A3001B928C /* GpxKitTests */,
 				4933266E1F7003A2001B928C /* Products */,
-				95BAF0F22AD773EC161D4EF5 /* Pods */,
-				C6EDD59F7182F0EA5DAE567C /* Frameworks */,
+				508FB73B7ED71C3B7EC48B5C /* Pods */,
+				67D235027B0517657110A903 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +124,7 @@
 		4933267A1F7003A3001B928C /* GpxKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				616233371FA0F25500A52420 /* Extensions */,
 				4996A07F1F70155800A0BE9D /* Tests */,
 				4996A07E1F70154600A0BE9D /* Gpx Files */,
 				4933267D1F7003A3001B928C /* Info.plist */,
@@ -125,8 +144,10 @@
 		4933268A1F70045A001B928C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				616233401FA1E2AE00A52420 /* Extensions */,
 				493326871F7003B5001B928C /* Gpx.swift */,
 				4933268B1F70046E001B928C /* Gpx+Parser.swift */,
+				616233351FA0C74000A52420 /* GpxWriter.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -135,10 +156,14 @@
 			isa = PBXGroup;
 			children = (
 				4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */,
-				4996A07C1F70154200A0BE9D /* Route.gpx */,
+				4996A07C1F70154200A0BE9D /* GarminRoute.gpx */,
 				4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */,
-				4933268D1F7009FD001B928C /* Track.gpx */,
+				4933268D1F7009FD001B928C /* StravaTrack.gpx */,
 				616233311FA0BE9300A52420 /* Waypoints.gpx */,
+				6162333A1FA1DC7300A52420 /* Empty.gpx */,
+				616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */,
+				6152083F1FA2110600B0DCB7 /* Route.gpx */,
+				615208411FA21AA300B0DCB7 /* Track.gpx */,
 			);
 			name = "Gpx Files";
 			sourceTree = "<group>";
@@ -146,27 +171,45 @@
 		4996A07F1F70155800A0BE9D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4933267B1F7003A3001B928C /* GpxKitTests.swift */,
+				4933267B1F7003A3001B928C /* GpxParserTests.swift */,
+				616233331FA0C6E000A52420 /* GpxWriterTests.swift */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
 		};
-		95BAF0F22AD773EC161D4EF5 /* Pods */ = {
+		508FB73B7ED71C3B7EC48B5C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7C01B1EDCD729E8DA15378BB /* Pods-GpxKit.debug.xcconfig */,
-				74D2E7DAA2B31296D1B15BAD /* Pods-GpxKit.release.xcconfig */,
-				EAA24D5B03ADA931934B16DF /* Pods-GpxKitTests.debug.xcconfig */,
-				B39F93412A1A36A585986418 /* Pods-GpxKitTests.release.xcconfig */,
+				05E34298ECD04DB1EF2E39BB /* Pods-GpxKit.debug.xcconfig */,
+				E6B3CA0DE6FC6B84CC87CA2E /* Pods-GpxKit.release.xcconfig */,
+				21B16DDC2EAAE95A0D5AFD88 /* Pods-GpxKitTests.debug.xcconfig */,
+				CBDE30710EB582671DEAB5BA /* Pods-GpxKitTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C6EDD59F7182F0EA5DAE567C /* Frameworks */ = {
+		616233371FA0F25500A52420 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3B22B93E6422483082A50A7E /* Pods_GpxKit.framework */,
-				EE1303281A6F8E55C5846273 /* Pods_GpxKitTests.framework */,
+				616233381FA0F26900A52420 /* GpxWriter+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		616233401FA1E2AE00A52420 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */,
+				492D155B1FA8F70D0013DB7D /* DateFormatter+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		67D235027B0517657110A903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				156172C678D2BE106A871A1F /* Pods_GpxKit.framework */,
+				43841FFEFECD3080677D013D /* Pods_GpxKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,12 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493326811F7003A3001B928C /* Build configuration list for PBXNativeTarget "GpxKit" */;
 			buildPhases = (
-				CF75869ED8FF7047D51272C5 /* [CP] Check Pods Manifest.lock */,
+				8126715F9282735420C35D73 /* [CP] Check Pods Manifest.lock */,
 				493326681F7003A2001B928C /* Sources */,
 				493326691F7003A2001B928C /* Frameworks */,
 				4933266A1F7003A2001B928C /* Headers */,
 				4933266B1F7003A2001B928C /* Resources */,
-				BC1F3AC1C0AF576004B960C5 /* [CP] Copy Pods Resources */,
+				FB8B7DAE894A386AB3EE75B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,12 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493326841F7003A3001B928C /* Build configuration list for PBXNativeTarget "GpxKitTests" */;
 			buildPhases = (
-				DE3701A3175F4A3CF1F6E849 /* [CP] Check Pods Manifest.lock */,
+				76212E313645D2CCC8898C53 /* [CP] Check Pods Manifest.lock */,
 				493326721F7003A3001B928C /* Sources */,
 				493326731F7003A3001B928C /* Frameworks */,
 				493326741F7003A3001B928C /* Resources */,
-				BB13C18DE694EFD47C36F1EC /* [CP] Embed Pods Frameworks */,
-				A2F5E544607CAB96CCA36164 /* [CP] Copy Pods Resources */,
+				31CEAC8838A93C92348B84AA /* [CP] Embed Pods Frameworks */,
+				294549CBD7EA493F5E89AB96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,18 +276,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Beeline;
 				TargetAttributes = {
 					4933266C1F7003A2001B928C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HYV9U93759;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					493326751F7003A3001B928C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HYV9U93759;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -279,9 +323,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4933268E1F7009FD001B928C /* Track.gpx in Resources */,
-				4996A07D1F70154200A0BE9D /* Route.gpx in Resources */,
+				4933268E1F7009FD001B928C /* StravaTrack.gpx in Resources */,
+				4996A07D1F70154200A0BE9D /* GarminRoute.gpx in Resources */,
 				4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */,
+				616233421FA1E9F800A52420 /* EmptyWithMetadata.gpx in Resources */,
+				6162333B1FA1DC7300A52420 /* Empty.gpx in Resources */,
+				615208401FA2110600B0DCB7 /* Route.gpx in Resources */,
+				615208421FA21AA300B0DCB7 /* Track.gpx in Resources */,
 				4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */,
 				616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */,
 			);
@@ -290,7 +338,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A2F5E544607CAB96CCA36164 /* [CP] Copy Pods Resources */ = {
+		294549CBD7EA493F5E89AB96 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,22 +353,65 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB13C18DE694EFD47C36F1EC /* [CP] Embed Pods Frameworks */ = {
+		31CEAC8838A93C92348B84AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC1F3AC1C0AF576004B960C5 /* [CP] Copy Pods Resources */ = {
+		76212E313645D2CCC8898C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GpxKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8126715F9282735420C35D73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GpxKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8B7DAE894A386AB3EE75B2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,36 +426,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF75869ED8FF7047D51272C5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DE3701A3175F4A3CF1F6E849 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -372,8 +433,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6162333F1FA1E1A400A52420 /* OutputStream+Extensions.swift in Sources */,
 				4933268C1F70046E001B928C /* Gpx+Parser.swift in Sources */,
 				493326881F7003B5001B928C /* Gpx.swift in Sources */,
+				616233361FA0C74000A52420 /* GpxWriter.swift in Sources */,
+				492D155C1FA8F70D0013DB7D /* DateFormatter+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +445,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4933267C1F7003A3001B928C /* GpxKitTests.swift in Sources */,
+				616233391FA0F26900A52420 /* GpxWriter+Extensions.swift in Sources */,
+				616233341FA0C6E000A52420 /* GpxWriterTests.swift in Sources */,
+				4933267C1F7003A3001B928C /* GpxParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +472,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -414,7 +482,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -438,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -460,7 +532,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -468,7 +542,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -486,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -499,7 +577,7 @@
 		};
 		493326821F7003A3001B928C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C01B1EDCD729E8DA15378BB /* Pods-GpxKit.debug.xcconfig */;
+			baseConfigurationReference = 05E34298ECD04DB1EF2E39BB /* Pods-GpxKit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
@@ -516,13 +594,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		493326831F7003A3001B928C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74D2E7DAA2B31296D1B15BAD /* Pods-GpxKit.release.xcconfig */;
+			baseConfigurationReference = E6B3CA0DE6FC6B84CC87CA2E /* Pods-GpxKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
@@ -538,13 +617,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.beeline.GpxKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		493326851F7003A3001B928C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA24D5B03ADA931934B16DF /* Pods-GpxKitTests.debug.xcconfig */;
+			baseConfigurationReference = 21B16DDC2EAAE95A0D5AFD88 /* Pods-GpxKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = HYV9U93759;
@@ -552,13 +632,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.beeline.GpxKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		493326861F7003A3001B928C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B39F93412A1A36A585986418 /* Pods-GpxKitTests.release.xcconfig */;
+			baseConfigurationReference = CBDE30710EB582671DEAB5BA /* Pods-GpxKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = HYV9U93759;
@@ -566,7 +647,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.beeline.GpxKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

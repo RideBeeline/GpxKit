@@ -36,8 +36,7 @@ fileprivate extension XMLIndexer {
         guard element != nil else { return nil }
         let name = self["name"].element?.text
         let description = self["description"].element?.text
-        let author = self["author"].element?.text
-        return Metadata(name: name, description: description, author: author)
+        return Metadata(name: name, description: description)
     }
 
     func point() throws -> Point {
@@ -45,7 +44,10 @@ fileprivate extension XMLIndexer {
         let latitude = try element.attributeValue(by: "lat")
         let longitude = try element.attributeValue(by: "lon")
         let time = self["time"].element?.text
-        return Point(coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude), time: time != nil ? TimeInterval(time!) : nil)
+        return Point(
+            CLLocationCoordinate2D(latitude: latitude, longitude: longitude),
+            time: time != nil ? DateFormatter.iso8601.date(from: time!) : nil
+        )
     }
 
 }
