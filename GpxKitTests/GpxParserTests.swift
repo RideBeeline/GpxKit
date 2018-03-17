@@ -76,6 +76,53 @@ class GpxParserTests: XCTestCase {
             // Pass
         }
     }
+    
+    func test_parse_gpx_track_with_elevation(){
+        let gpx = try! parse(name: "Track")
+
+        XCTAssertEqual(gpx.track!.count, 1)
+        XCTAssertEqual(gpx.track![0].count, 4)
+        
+        XCTAssertEqual(gpx.track![0][0].coordinate.latitude, 54.9328621088893)
+        XCTAssertEqual(gpx.track![0][0].coordinate.longitude, 9.86062421614008)
+        XCTAssertEqual(gpx.track![0][0].elevation, 0.0)
+        
+        XCTAssertEqual(gpx.track![0][1].coordinate.latitude, 54.9329323732085)
+        XCTAssertEqual(gpx.track![0][1].coordinate.longitude, 9.86092208681491)
+        XCTAssertEqual(gpx.track![0][1].elevation, 1.1)
+        
+        XCTAssertEqual(gpx.track![0][2].coordinate.latitude, 54.9332774352119)
+        XCTAssertEqual(gpx.track![0][2].coordinate.longitude, 9.86187816543752)
+        XCTAssertEqual(gpx.track![0][2].elevation, 2.22)
+        
+        XCTAssertEqual(gpx.track![0][3].coordinate.latitude, 54.9334232616792)
+        XCTAssertEqual(gpx.track![0][3].coordinate.longitude, 9.86243984967986)
+        XCTAssertEqual(gpx.track![0][3].elevation, 3.333)
+    }
+    
+    
+    func test_parse_gpx_track_with_invalid_elevation(){
+        let gpx = try! parse(name: "TrackInvalidElevation")
+        
+        XCTAssertEqual(gpx.track!.count, 1)
+        XCTAssertEqual(gpx.track![0].count, 4)
+        
+        XCTAssertEqual(gpx.track![0][0].coordinate.latitude, 54.9328621088893)
+        XCTAssertEqual(gpx.track![0][0].coordinate.longitude, 9.86062421614008)
+        XCTAssertEqual(gpx.track![0][0].elevation, nil)
+        
+        XCTAssertEqual(gpx.track![0][1].coordinate.latitude, 54.9329323732085)
+        XCTAssertEqual(gpx.track![0][1].coordinate.longitude, 9.86092208681491)
+        XCTAssertEqual(gpx.track![0][1].elevation, nil)
+        
+        XCTAssertEqual(gpx.track![0][2].coordinate.latitude, 54.9332774352119)
+        XCTAssertEqual(gpx.track![0][2].coordinate.longitude, 9.86187816543752)
+        XCTAssertEqual(gpx.track![0][2].elevation, 2.22)
+        
+        XCTAssertEqual(gpx.track![0][3].coordinate.latitude, 54.9334232616792)
+        XCTAssertEqual(gpx.track![0][3].coordinate.longitude, 9.86243984967986)
+        XCTAssertEqual(gpx.track![0][3].elevation, 3.333)
+    }
 
     private func parse(name: String) throws -> Gpx {
         let url = Bundle(for: GpxParserTests.self).url(forResource: name, withExtension: "gpx")

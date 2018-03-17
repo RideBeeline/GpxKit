@@ -28,6 +28,7 @@
 		616233421FA1E9F800A52420 /* EmptyWithMetadata.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */; };
 		8AC4DDE44653A3A3A179940E /* Pods_GpxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156172C678D2BE106A871A1F /* Pods_GpxKit.framework */; };
 		B67D1D4FCD3F636CF6B804B8 /* Pods_GpxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43841FFEFECD3080677D013D /* Pods_GpxKitTests.framework */; };
+		F169505E205D273F00BD3355 /* TrackInvalidElevation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F169505D205D273F00BD3355 /* TrackInvalidElevation.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EmptyWithMetadata.gpx; sourceTree = "<group>"; };
 		CBDE30710EB582671DEAB5BA /* Pods-GpxKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6B3CA0DE6FC6B84CC87CA2E /* Pods-GpxKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit.release.xcconfig"; sourceTree = "<group>"; };
+		F169505D205D273F00BD3355 /* TrackInvalidElevation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TrackInvalidElevation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */,
 				6152083F1FA2110600B0DCB7 /* Route.gpx */,
 				615208411FA21AA300B0DCB7 /* Track.gpx */,
+				F169505D205D273F00BD3355 /* TrackInvalidElevation.gpx */,
 			);
 			name = "Gpx Files";
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				615208421FA21AA300B0DCB7 /* Track.gpx in Resources */,
 				4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */,
 				616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */,
+				F169505E205D273F00BD3355 /* TrackInvalidElevation.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
