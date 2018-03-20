@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GpxKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.license      = "MIT"
   s.summary      = "Swift GPX parser and writer"
   s.homepage     = "https://github.com/beeline/GpxKit"
