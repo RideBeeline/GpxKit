@@ -43,9 +43,11 @@ fileprivate extension XMLIndexer {
         guard let element = element else { throw IndexingError.error }
         let latitude = try element.attributeValue(by: "lat")
         let longitude = try element.attributeValue(by: "lon")
+        let elevation = self["ele"].element?.text
         let time = self["time"].element?.text
         return Point(
             CLLocationCoordinate2D(latitude: latitude, longitude: longitude),
+            elevation: elevation != nil ? Double(elevation!) : nil,
             time: time != nil ? DateFormatter.iso8601.date(from: time!) : nil
         )
     }
