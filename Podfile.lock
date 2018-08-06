@@ -9,11 +9,17 @@ DEPENDENCIES:
   - RxSwift (~> 4.0)
   - SWXMLHash (~> 4.2)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxBlocking
+    - RxSwift
+    - SWXMLHash
+
 SPEC CHECKSUMS:
   RxBlocking: f6054985901412fc8c02daa84e92d4ba68c61389
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   SWXMLHash: 3c39a53723202800e9e1a87f14b2fe7ac1da98ec
 
-PODFILE CHECKSUM: d5337faaaaf4bcb2607437f81768c741d43db0e2
+PODFILE CHECKSUM: 6d718708b1ca054f948dbbb4aaccbf24a303a320
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

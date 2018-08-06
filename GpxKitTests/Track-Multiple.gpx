@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="GpxKit">
+    <trk>
+        <trkseg>
+            <trkpt lat="54.9328621088893" lon="9.86062421614008">
+                <ele>0.0</ele>
+                <time>2017-09-20T09:44:20Z</time>
+            </trkpt>
+            <trkpt lat="54.9329323732085" lon="9.86092208681491">
+                <ele>1.1</ele>
+                <time>2017-09-20T09:44:21Z</time>
+            </trkpt>
+            <trkpt lat="54.9332774352119" lon="9.86187816543752">
+                <ele>2.22</ele>
+                <time>2017-09-20T09:44:22Z</time>
+            </trkpt>
+            <trkpt lat="54.9334232616792" lon="9.86243984967986">
+                <ele>3.333</ele>
+                <time>2017-09-20T09:44:23Z</time>
+            </trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <trkseg>
+            <trkpt lat="49.933832287788391" lon="1.088794218376279">
+                <time>2011-07-22T21:53:34Z</time>
+            </trkpt>
+            <trkpt lat="49.933706223964691" lon="1.091079125180841">
+                <time>2011-07-22T21:53:57Z</time>
+            </trkpt>
+            <trkpt lat="49.934062957763672" lon="1.092946529388428">
+                <time>2011-07-22T21:54:06Z</time>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

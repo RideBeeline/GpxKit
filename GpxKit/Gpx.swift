@@ -7,9 +7,13 @@ import CoreLocation
 public struct Gpx {
     public let creator: String
     public let metadata: Metadata?
-    public let waypoints: [Point]?
-    public let route: [Point]?
-    public let track: [[Point]]?
+    public let waypoints: [Point]
+    public let route: [Point]
+    public let tracks: [Track]
+}
+
+public struct Track {
+    public let segments: [[Point]]
 }
 
 public struct Metadata {

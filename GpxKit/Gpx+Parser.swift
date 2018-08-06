@@ -22,10 +22,14 @@ public extension Gpx {
             try routePoint.point()
         }
 
-        self.track = try gpx["trk"]["trkseg"].all.map { trackSegment in
-            try trackSegment["trkpt"].all.map { trackPoint in
-                try trackPoint.point()
-            }
+        self.tracks = try gpx["trk"].all.map { track in
+            Track(segments:
+                try track["trkseg"].all.map { trackSegment in
+                    try trackSegment["trkpt"].all.map { trackPoint in
+                        try trackPoint.point()
+                    }
+                }
+            )
         }
     }
 }

@@ -17,6 +17,8 @@
 		4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */; };
 		4996A07D1F70154200A0BE9D /* GarminRoute.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A07C1F70154200A0BE9D /* GarminRoute.gpx */; };
 		4996A0811F701D4100A0BE9D /* Invalid-Attribute-Value.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */; };
+		49C08B0B21187B340053B8C4 /* Track-Multiple.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 49C08B0A21187B340053B8C4 /* Track-Multiple.gpx */; };
+		49C08B0D21188C270053B8C4 /* CLLocationCoordinate+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08B0C21188C270053B8C4 /* CLLocationCoordinate+Equatable.swift */; };
 		615208401FA2110600B0DCB7 /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6152083F1FA2110600B0DCB7 /* Route.gpx */; };
 		615208421FA21AA300B0DCB7 /* Track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 615208411FA21AA300B0DCB7 /* Track.gpx */; };
 		616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 616233311FA0BE9300A52420 /* Waypoints.gpx */; };
@@ -59,6 +61,8 @@
 		4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute.gpx"; sourceTree = "<group>"; };
 		4996A07C1F70154200A0BE9D /* GarminRoute.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GarminRoute.gpx; sourceTree = "<group>"; };
 		4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Invalid-Attribute-Value.gpx"; sourceTree = "<group>"; };
+		49C08B0A21187B340053B8C4 /* Track-Multiple.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Track-Multiple.gpx"; sourceTree = "<group>"; };
+		49C08B0C21188C270053B8C4 /* CLLocationCoordinate+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate+Equatable.swift"; sourceTree = "<group>"; };
 		6152083F1FA2110600B0DCB7 /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
 		615208411FA21AA300B0DCB7 /* Track.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Track.gpx; sourceTree = "<group>"; };
 		616233311FA0BE9300A52420 /* Waypoints.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Waypoints.gpx; sourceTree = "<group>"; };
@@ -157,16 +161,17 @@
 		4996A07E1F70154600A0BE9D /* Gpx Files */ = {
 			isa = PBXGroup;
 			children = (
-				4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */,
-				4996A07C1F70154200A0BE9D /* GarminRoute.gpx */,
-				4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */,
-				4933268D1F7009FD001B928C /* StravaTrack.gpx */,
-				616233311FA0BE9300A52420 /* Waypoints.gpx */,
 				6162333A1FA1DC7300A52420 /* Empty.gpx */,
 				616233411FA1E9F800A52420 /* EmptyWithMetadata.gpx */,
+				4996A07C1F70154200A0BE9D /* GarminRoute.gpx */,
+				4996A0801F701D4100A0BE9D /* Invalid-Attribute-Value.gpx */,
+				4996A07A1F70106300A0BE9D /* Invalid-Attribute.gpx */,
 				6152083F1FA2110600B0DCB7 /* Route.gpx */,
+				4933268D1F7009FD001B928C /* StravaTrack.gpx */,
+				49C08B0A21187B340053B8C4 /* Track-Multiple.gpx */,
 				615208411FA21AA300B0DCB7 /* Track.gpx */,
 				F169505D205D273F00BD3355 /* TrackInvalidElevation.gpx */,
+				616233311FA0BE9300A52420 /* Waypoints.gpx */,
 			);
 			name = "Gpx Files";
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 		616233371FA0F25500A52420 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				49C08B0C21188C270053B8C4 /* CLLocationCoordinate+Equatable.swift */,
 				616233381FA0F26900A52420 /* GpxWriter+Extensions.swift */,
 			);
 			name = Extensions;
@@ -240,7 +246,6 @@
 				493326691F7003A2001B928C /* Frameworks */,
 				4933266A1F7003A2001B928C /* Headers */,
 				4933266B1F7003A2001B928C /* Resources */,
-				FB8B7DAE894A386AB3EE75B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,7 +265,6 @@
 				493326731F7003A3001B928C /* Frameworks */,
 				493326741F7003A3001B928C /* Resources */,
 				31CEAC8838A93C92348B84AA /* [CP] Embed Pods Frameworks */,
-				294549CBD7EA493F5E89AB96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +339,7 @@
 				615208421FA21AA300B0DCB7 /* Track.gpx in Resources */,
 				4996A07B1F70106300A0BE9D /* Invalid-Attribute.gpx in Resources */,
 				616233321FA0BE9300A52420 /* Waypoints.gpx in Resources */,
+				49C08B0B21187B340053B8C4 /* Track-Multiple.gpx in Resources */,
 				F169505E205D273F00BD3355 /* TrackInvalidElevation.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,21 +347,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		294549CBD7EA493F5E89AB96 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpxKitTests/Pods-GpxKitTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		31CEAC8838A93C92348B84AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,21 +405,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB8B7DAE894A386AB3EE75B2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpxKit/Pods-GpxKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -451,6 +426,7 @@
 			files = (
 				616233391FA0F26900A52420 /* GpxWriter+Extensions.swift in Sources */,
 				616233341FA0C6E000A52420 /* GpxWriterTests.swift in Sources */,
+				49C08B0D21188C270053B8C4 /* CLLocationCoordinate+Equatable.swift in Sources */,
 				4933267C1F7003A3001B928C /* GpxParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
