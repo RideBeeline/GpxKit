@@ -130,10 +130,10 @@
 		4933267A1F7003A3001B928C /* GpxKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				616233371FA0F25500A52420 /* Extensions */,
-				4996A07F1F70155800A0BE9D /* Tests */,
-				4996A07E1F70154600A0BE9D /* Gpx Files */,
 				4933267D1F7003A3001B928C /* Info.plist */,
+				616233371FA0F25500A52420 /* Extensions */,
+				4996A07E1F70154600A0BE9D /* Gpx Files */,
+				4996A07F1F70155800A0BE9D /* Tests */,
 			);
 			path = GpxKitTests;
 			sourceTree = "<group>";
@@ -150,10 +150,10 @@
 		4933268A1F70045A001B928C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				616233401FA1E2AE00A52420 /* Extensions */,
 				493326871F7003B5001B928C /* Gpx.swift */,
 				4933268B1F70046E001B928C /* Gpx+Parser.swift */,
 				616233351FA0C74000A52420 /* GpxWriter.swift */,
+				616233401FA1E2AE00A52420 /* Extensions */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -208,8 +208,8 @@
 		616233401FA1E2AE00A52420 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */,
 				492D155B1FA8F70D0013DB7D /* DateFormatter+Extensions.swift */,
+				6162333E1FA1E1A400A52420 /* OutputStream+Extensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
