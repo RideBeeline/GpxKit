@@ -7,7 +7,7 @@ import SWXMLHash
 
 public extension Gpx {
 
-    public init(data: Data) throws {
+    init(data: Data) throws {
         let gpx = SWXMLHash.parse(data)["gpx"]
 
         self.creator = gpx["creator"].element?.text ?? ""
