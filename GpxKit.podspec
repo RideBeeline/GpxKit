@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |ss|
     ss.framework  = "Foundation"
     ss.dependency "SWXMLHash", '~> 5'
-    ss.dependency "RxSwift", '~> 5'
+    ss.dependency "RxSwift", '~> 6'
   end
 
 end

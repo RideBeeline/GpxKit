@@ -1,12 +1,12 @@
 PODS:
-  - RxBlocking (5.1.1):
-    - RxSwift (~> 5)
-  - RxSwift (5.1.2)
+  - RxBlocking (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
   - SWXMLHash (5.0.1)
 
 DEPENDENCIES:
-  - RxBlocking (~> 5)
-  - RxSwift (~> 5)
+  - RxBlocking (~> 6)
+  - RxSwift (~> 6)
   - SWXMLHash (~> 5)
 
 SPEC REPOS:
@@ -16,10 +16,10 @@ SPEC REPOS:
     - SWXMLHash
 
 SPEC CHECKSUMS:
-  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
-  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  RxBlocking: 0b29f7d2079109a8de49c411381bed7c33ef1eeb
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
 
-PODFILE CHECKSUM: 2b18f393cd9967151a4f6ef716f8ea7b50acba88
+PODFILE CHECKSUM: 186b3a9ab9523b12d92079e21f3c208c19484369
 
 COCOAPODS: 1.10.1
