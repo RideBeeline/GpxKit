@@ -1,15 +1,18 @@
-platform :ios, '10.0'
+platform :ios, '15.0'
 use_frameworks!
 inhibit_all_warnings!
 
-target 'GpxKit' do
+workspace 'GpxKit.xcworkspace'
+project 'GpxKit'
 
-  pod 'SWXMLHash', '~> 5'
-  pod 'RxSwift',   '~> 6'
+target 'GpxKit' do
+  project 'GpxKit'
+
+  pod 'SWXMLHash', '~> 6'
+  pod 'RxSwift',   '~> 6.5'
 
   target 'GpxKitTests' do
-    inherit! :search_paths
-    pod 'RxBlocking', '~> 6'
+    pod 'RxBlocking', '~> 6.5'
   end
 
 end
